@@ -1,0 +1,15 @@
+main: me.GideonDM.CountryTown.Main.Main
+name: CountryTown
+version: 1.0.0.1
+author: http://twitter.com/GideonDM
+commands:
+  eventtime:
+      description: Start een event, want het is eventtime!
+  inkoop:
+      description: Dit is de commmand voor ons inkoopsysteem!
+  veiling:
+      description: Dit is de commmand voor ons veilingssysteem!	 
+  bied:
+      description: Bied hiermee op de veiling!  
+  ipcheck:
+      description: Check iemand zijn ip!
