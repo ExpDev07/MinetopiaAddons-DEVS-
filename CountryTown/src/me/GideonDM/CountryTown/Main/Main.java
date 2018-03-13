@@ -2,11 +2,7 @@ package me.GideonDM.CountryTown.Main;
 
 import java.util.ArrayList;
 
-import org.bukkit.BanEntry;
-import org.bukkit.BanList;
-import org.bukkit.Bukkit;
-import org.bukkit.Color;
-import org.bukkit.Material;
+import org.bukkit.*;
 import org.bukkit.enchantments.Enchantment;
 import org.bukkit.entity.Player;
 import org.bukkit.event.Listener;
@@ -43,7 +39,6 @@ import me.GideonDM.CountryTown.Safety.IpCheckCommand;
 import me.GideonDM.CountryTown.Safety.SafetyJoin;
 import me.GideonDM.CountryTown.Veiling.BiedCommand;
 import me.GideonDM.CountryTown.Veiling.VeilingCommand;
-import net.md_5.bungee.api.ChatColor;
 import net.milkbowl.vault.economy.Economy;
 
 public class Main extends JavaPlugin implements Listener{
@@ -237,7 +232,7 @@ public class Main extends JavaPlugin implements Listener{
         	
     	    ItemStack item = new ItemStack(kleding.getMaterial(), 1, (short)0);
     	    ItemMeta meta = item.getItemMeta();
-    	    meta.setDisplayName(ChatColor.WHITE + kleding.getRawName()); 
+    	    meta.setDisplayName(ChatColor.WHITE + kleding.getRawName());
     	    item.setItemMeta(meta);
         	
         	p.getInventory().addItem(item);	
