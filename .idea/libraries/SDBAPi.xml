@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SDBAPi">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/downloads/SDBAPi.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

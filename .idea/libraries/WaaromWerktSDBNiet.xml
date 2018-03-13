@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="WaaromWerktSDBNiet">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/downloads/WaaromWerktSDBNiet.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
